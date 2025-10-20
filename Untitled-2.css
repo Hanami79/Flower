@@ -1,0 +1,150 @@
+/* === Общие стили === */
+body {
+  margin: 0;
+  background-color: #E8F8F5; /* нежно-мятный фон */
+  font-family: "Times New Roman", Georgia, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #2E3D3A;
+}
+header {
+  background-color: #C5E7DF;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #88D1C0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+.logo img {
+  width: 80px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav {
+  background-color: #C5E7DF;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid #A9E0D2;
+}
+
+nav a {
+  color: #2E3D3A;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav .active {
+  color: #ffffff;
+  background-color: #88D1C0;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #DDF4EE;
+  border-radius: 12px;
+  margin: 30px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn,
+button {
+  background-color: #88D1C0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.btn:hover,
+button:hover {
+  background-color: #6CC0A9;
+}
+.product-card {
+  display: inline-block;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: #2E3D3A;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #6CC0A9;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+input, textarea {
+  border: 2px solid #A9E0D2;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+input:focus, textarea:focus {
+  border-color: #6CC0A9;
+  outline: none;
+}
+
+footer {
+  background-color: #C5E7DF;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 2px solid #A9E0D2;
+}
